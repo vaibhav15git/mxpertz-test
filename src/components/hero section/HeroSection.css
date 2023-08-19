@@ -1,0 +1,16 @@
+.hero-section {
+  position: relative;
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2017/10/22/21/02/food-2879265_640.jpg");
+}
+
+.hero-heading {
+  color: white;
+  font-size: 100px;
+  
+}
+

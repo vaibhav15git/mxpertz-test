@@ -1,0 +1,14 @@
+
+.price-div{
+    width: 80%;
+   background-color: white;
+    height: 300px;
+   
+    display: flex;
+    margin: auto;
+}
+.data-div{
+    height: 300px;
+    width: 33.99%;
+    /* border: 1px solid forestgreen; */
+}

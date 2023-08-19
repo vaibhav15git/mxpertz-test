@@ -1,0 +1,57 @@
+.footer-section {
+  position: relative;
+  background-size:cover; /* Make the image cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  height: 800px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2016/02/20/21/37/vegetables-1212825_640.jpg");
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take up the full viewport height */
+}
+
+
+
+.horizontal-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.custom-box {
+    margin-top: 70px;
+    width: 600px;
+    height: 680px;
+    background-color: rgb(62, 61, 61);
+  
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input-box{
+    width: 400px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+   
+    padding: 8px;
+    border: none; 
+    outline: none;
+}
+.input-btn{
+width: 400px;
+background-color:#edb458 ;
+padding: 8px;
+margin-top: 10px;
+color: white;
+border: none; 
+    outline: none;
+}
